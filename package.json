@@ -5,7 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/darkwire/darkwire.io.git",
   "engines": {
-    "yarn": "1.x"
+    "yarn": "1.x",
+    "node": "10.16.3",
+    "npm": "6.9.0"
   },
   "contributors": [
     {
