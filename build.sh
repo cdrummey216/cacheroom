@@ -1,6 +1,6 @@
 echo "building client..."
 cd client
-yarn  --production=false
+yarn  --production=true
 REACT_APP_COMMIT_SHA=$SOURCE_VERSION \
 REACT_APP_API_HOST=$api_host \
 REACT_APP_API_PROTOCOL=$API_PROTOCOL \
@@ -10,5 +10,5 @@ cd ../
 
 echo "building server..."
 cd server
-yarn  --production=false
+yarn  --production=true
 yarn build
