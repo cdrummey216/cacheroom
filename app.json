@@ -1,20 +1,14 @@
 {
-  "name": "Darkwire",
+  "name": "cacheroom",
   "description": "End-to-end encrypted web chat",
   "keywords": [
     "cryptography",
     "chat",
     "privacy"
   ],
-  "website": "https://darkwire.io",
-  "repository": "https://github.com/darkwire/darkwire.io",
+  "website": "https://github.com/cdrummey216",
+  "repository": "https://github.com/cdrummey216/encrypted-web-chat",
   "env": {
-    "HEROKU_APP_NAME": {
-      "required": false
-    },
-    "HEROKU_PARENT_APP_NAME": {
-      "required": false
-    },
     "MAILGUN_API_KEY": {
       "description": "Mailgun API Key (only required for abuse reporting)",
       "required": false
