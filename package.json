@@ -25,7 +25,7 @@
     "dev": "concurrently 'cd client && yarn start' 'cd server && yarn dev'",
     "test": "echo 'tests'"
   },
-  "devDependencies": {
+  "Dependencies": {
     "concurrently": "^4.1.0"
   }
 }
