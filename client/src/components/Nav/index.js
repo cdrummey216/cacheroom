@@ -66,7 +66,7 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-md navbar-dark">
         <div className="meta">
-        <img src={logoImg} title="CacheRoom" className="logo" />
+        <img src={logoImg} title="CacheRoom" alt="" className="logo" />
         <button
             data-toggle="tooltip"
             data-placement="bottom"
@@ -96,7 +96,7 @@ class Nav extends Component {
           <Dropdown className="members-dropdown">
             <DropdownTrigger>
               <button className="btn btn-link btn-plain members-action">
-                <img src={Double} title="Users" className="users-icon" />
+                <img src={Double} title="Users" alt="" className="users-icon" />
               </button>
               <span>{this.props.members.length}</span>
             </DropdownTrigger>
@@ -108,7 +108,7 @@ class Nav extends Component {
                     <span className="icon-container">
                       {member.id === this.props.userId &&
                         <span data-toggle="tooltip" data-placement="bottom" title="Me" className="me-icon-wrap">
-                          <img src={Single} title="User" className="me-icon" />
+                          <img src={Single} title="User" alt="" className="me-icon" />
                         </span>
                       }
                       {member.isOwner &&
